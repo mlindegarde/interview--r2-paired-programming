@@ -1,0 +1,32 @@
+extends ../layout
+
+block content
+    table
+        thead
+            tr
+                th _id
+                th id
+                th name
+                th flavor
+                th playerClass
+                th race
+                th rarity
+                th set
+                th type
+
+        tbody
+            each card in cards
+                tr
+                    td
+                        a(href=`cards/${card._id}`)= card._id
+                    td=card.id
+                    td=card.name
+                    td=card.flavor
+                    td
+                        a(href=`cards?playerClass=${card.playerClass}`)= card.playerClass
+                    td
+                        a(href=`cards?race=${card.race}`)= card.race
+                    td=card.rarity
+                    td
+                        a(href=`cards?set=${card.set}`)= card.set
+                    td=card.type

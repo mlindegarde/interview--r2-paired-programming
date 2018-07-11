@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hearthstone.ApiClient", "Hearthstone.ApiClient\Hearthstone.ApiClient.csproj", "{CCD82C26-8ECF-45F4-8EB6-3BB1B350A48E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hearthstone.Model", "Hearthstone.Model\Hearthstone.Model.csproj", "{D2978D34-C46A-4D79-98E9-822DC8BB2990}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hearthstone.ApiClient.Tests", "Hearthstone.ApiClient.Tests\Hearthstone.ApiClient.Tests.csproj", "{12746771-C00F-477B-BAEF-D39C9A35EC53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearthstone.Web", "Hearthstone.Web\Hearthstone.Web.csproj", "{601C357F-61B8-4909-B256-24FCEDE7FDD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCD82C26-8ECF-45F4-8EB6-3BB1B350A48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD82C26-8ECF-45F4-8EB6-3BB1B350A48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD82C26-8ECF-45F4-8EB6-3BB1B350A48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD82C26-8ECF-45F4-8EB6-3BB1B350A48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2978D34-C46A-4D79-98E9-822DC8BB2990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2978D34-C46A-4D79-98E9-822DC8BB2990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2978D34-C46A-4D79-98E9-822DC8BB2990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2978D34-C46A-4D79-98E9-822DC8BB2990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12746771-C00F-477B-BAEF-D39C9A35EC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12746771-C00F-477B-BAEF-D39C9A35EC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12746771-C00F-477B-BAEF-D39C9A35EC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12746771-C00F-477B-BAEF-D39C9A35EC53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601C357F-61B8-4909-B256-24FCEDE7FDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601C357F-61B8-4909-B256-24FCEDE7FDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601C357F-61B8-4909-B256-24FCEDE7FDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601C357F-61B8-4909-B256-24FCEDE7FDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E713D323-C720-4ED0-8A14-B77FEBE53B48}
+	EndGlobalSection
+EndGlobal

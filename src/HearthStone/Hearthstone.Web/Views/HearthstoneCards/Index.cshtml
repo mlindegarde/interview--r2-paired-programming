@@ -1,0 +1,39 @@
+﻿@using Hearthstone.Model
+@model List<Hearthstone.Model.Card>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Flavor</th>
+        <th>Player Class</th>
+        <th>Race</th>
+        <th>Rarity</th>
+        <th>Set</th>
+        <th>Type</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    @foreach (Card card in Model)
+    {
+        <tr>
+            <td>@card.Id</td>
+            <td>@card.Name</td>
+            <td>@card.Flavor</td>
+            <td>@card.PlayerClass</td>
+            <td>@card.Race</td>
+            <td>@card.Rarity</td>
+            <td>@card.Set</td>
+            <td>@card.Type</td>
+        </tr>
+    }
+    </tbody>
+</table>
