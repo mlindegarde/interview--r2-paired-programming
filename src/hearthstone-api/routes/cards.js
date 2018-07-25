@@ -9,7 +9,7 @@ router.get('/', async function(req, res, next) {
             res.render('cards/list', {cards: await database.getCards(req.query)});
         },
 
-        'applicatoin/json': async function() {
+        'application/json': async function() {
             res.send(await database.getCards(req.query));
         },
 
